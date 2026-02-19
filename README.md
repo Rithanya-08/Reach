@@ -1,10 +1,10 @@
-# Safety Companion App (Disguised as Calculator) �️�
+# Safety Companion App (Disguised as Calculator) 
 
 > **A stealthy, comprehensive personal safety application designed to protect users in emergency situations while maintaining complete privacy.**
 
 ---
 
-## � Overview
+## Overview
 
 The **Safety Companion App** operates under the guise of a fully functional calculator to ensure the user's safety tools remain undetected by potential aggressors. Beneath the surface, it powers a robust suite of emergency features including real-time journey monitoring, automated SOS triggers, audio evidence collection, and a realistic fake call system.
 
@@ -12,13 +12,13 @@ The app uses intelligent algorithms to detect anomalies during travel (unexpecte
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-### 1. **Stealth Interface** 🕵️‍♀️
+### 1. **Stealth Interface** 
 - **Disguise**: App Name and Icon mimick a standard "Calculator".
 - **Privacy First**: The safety dashboard is hidden behind the utility interface.
 
-### 2. **Smart Journey Monitoring** 📍
+### 2. **Smart Journey Monitoring** 
 - **Live Route Tracking**: Monitors travel from origin to destination using Google Maps API.
 - **Traffic Analysis**: Accounts for real-time traffic delays to prevent false alarms.
 - **Soft Alert System**:
@@ -27,7 +27,7 @@ The app uses intelligent algorithms to detect anomalies during travel (unexpecte
     - Sends a preliminary SMS to contacts: *"User is delayed. Checking status..."*
 - **Hard Escalation**: Automatically upgrades to a full SOS if the user does not respond within **30 seconds**.
 
-### 3. **Emergency SOS System** 🚨
+### 3. **Emergency SOS System** 
 - **Triggers**:
     - **Hardware**: Volume Up -> Down -> Up sequence (works when screen is locked).
     - **Shake**: Vigorously shake the phone.
@@ -37,12 +37,12 @@ The app uses intelligent algorithms to detect anomalies during travel (unexpecte
     - Initiates background audio recording.
     - Triggers a fake incoming call (optional distraction).
 
-### 4. **Audio Evidence Manager** 🎙️
+### 4. **Audio Evidence Manager** 
 - **Auto-Recording**: Captures audio during any SOS event.
 - **Secure Storage**: Recordings are saved locally in the app's private cache.
 - **Share**: One-tap sharing of evidence via secure file providers (WhatsApp, Email, etc.).
 
-### 5. **Realistic Fake Call** 📞
+### 5. **Realistic Fake Call** 
 - **Immersive UI**: Simulates a native Android incoming call screen (User: "Mom", "Police").
 - **Interactive**: Answer to start a timer or Decline to exit.
 - **Ringtone**: Plays the device's default ringtone.
@@ -61,7 +61,7 @@ The app uses intelligent algorithms to detect anomalies during travel (unexpecte
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 com.safety.app
@@ -87,7 +87,7 @@ com.safety.app
 
 ---
 
-## � Getting Started
+## Getting Started
 
 ### Prerequisites
 - **Android Studio**: Iguana or later.
@@ -109,7 +109,7 @@ com.safety.app
     - Connect a physical Android device (Recommended for Location/Sensor testing).
     - Run the `app` configuration.
 
-### ⚠️ Test Mode Configuration
+### Test Mode Configuration
 > **Note**: The app is currently set to **DEV MODE** for rapid testing.
 
 - **Forced Alert**: A simulated "Delay" alert triggers **10 seconds** after starting ANY journey.
@@ -120,7 +120,7 @@ com.safety.app
 
 ---
 
-## � Future Scope
+##Future Scope
 
 - [ ] **Cloud Sync**: Backup recordings and logs to a secure cloud server.
 - [ ] **Geofencing**: Automatic alerts when entering known high-risk zones.
@@ -130,6 +130,6 @@ com.safety.app
 
 ---
 
-## � License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
