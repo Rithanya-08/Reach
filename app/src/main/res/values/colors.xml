@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Colors -->
+    <color name="safety_primary">#2C3E50</color> <!-- Deep Blue/Grey -->
+    <color name="safety_secondary">#4CA1AF</color> <!-- Teal Accent -->
+    <color name="safety_background">#F4F6F8</color> <!-- Soft White/Grey -->
+    <color name="safety_surface">#FFFFFF</color>
+    
+    <!-- Functional Colors -->
+    <color name="color_sos">#FF5252</color> <!-- Urgent Red -->
+    <color name="color_journey">#44BD32</color> <!-- Success Green -->
+    <color name="color_contacts">#0984E3</color> <!-- Info Blue -->
+    <color name="color_fake_call">#A29BFE</color> <!-- Soft Purple -->
+    <color name="color_places">#FDCB6E</color> <!-- Warning/Info Yellow -->
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#2D3436</color>
+    <color name="text_secondary">#636E72</color>
+    <color name="text_white">#FFFFFF</color>
+
+    <!-- Legacy mapped for compatibility -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#2C3E50</color>
+    <color name="purple_700">#1B2631</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    
+    <!-- Compatibility -->
+    <color name="red_sos">@color/color_sos</color>
+</resources>

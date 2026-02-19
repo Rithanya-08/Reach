@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#202124">
+
+    <!-- Caller Info -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgCaller"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/ic_profile_placeholder"
+            android:backgroundTint="#5F6368"
+            android:padding="20dp"
+            android:src="@drawable/ic_profile_placeholder" 
+            android:tint="#FFFFFF"/>
+            <!-- Simulating a circular avatar with background tint -->
+
+        <TextView
+            android:id="@+id/tvCallerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Mom"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/tvCallStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Mobile 00:00"
+            android:textColor="#BDC1C6"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+
+    <!-- Action Buttons -->
+    <LinearLayout
+        android:id="@+id/layoutButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!-- Decline -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btnDecline"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:background="@drawable/ic_call_decline"
+                android:backgroundTint="#D93025"
+                android:src="@drawable/ic_call_decline"
+                android:tint="#FFFFFF"
+                android:scaleType="centerInside"
+                android:padding="16dp"/>
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Decline"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+
+        <!-- Accept -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btnAccept"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:background="@drawable/ic_call_answer"
+                android:backgroundTint="#1E8E3E"
+                android:src="@drawable/ic_call_answer"
+                android:tint="#FFFFFF"
+                android:scaleType="centerInside"
+                android:padding="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Answer"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    
+    <!-- End Call Button (Hidden by default) -->
+    <ImageButton
+        android:id="@+id/btnEndCall"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/ic_call_decline"
+        android:backgroundTint="#D93025"
+        android:src="@drawable/ic_call_decline"
+        android:tint="#FFFFFF"
+        android:scaleType="centerInside"
+        android:padding="16dp"
+        android:visibility="gone"/>
+
+</RelativeLayout>

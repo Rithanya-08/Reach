@@ -1,0 +1,322 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.safety.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Permissions -->
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:7:5-81
+13-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:8:5-67
+14-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.SEND_SMS" />
+15-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:9:5-67
+15-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:9:22-64
+16    <uses-permission android:name="android.permission.CALL_PHONE" />
+16-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:10:5-69
+16-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:10:22-66
+17    <uses-permission android:name="android.permission.READ_CONTACTS" />
+17-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:11:5-72
+17-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:11:22-69
+18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+18-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:12:5-77
+18-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:12:22-74
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+19-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:13:5-86
+19-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:13:22-83
+20    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+20-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:14:5-88
+20-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:14:22-85
+21    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+21-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:15:5-77
+21-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:15:22-74
+22    <uses-permission android:name="android.permission.VIBRATE" />
+22-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:16:5-66
+22-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:16:22-63
+23    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+23-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:17:5-71
+23-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:17:22-68
+24    <uses-permission android:name="android.permission.WAKE_LOCK" />
+24-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:18:5-68
+24-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:18:22-65
+25    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Include required permissions for Google Maps API to run. -->
+25-->[com.google.android.libraries.places:places:3.3.0] C:\Users\ritha\.gradle\caches\8.9\transforms\b24c723351c82cc00c9cca984afbac97\transformed\jetified-places-3.3.0\AndroidManifest.xml:11:5-76
+25-->[com.google.android.libraries.places:places:3.3.0] C:\Users\ritha\.gradle\caches\8.9\transforms\b24c723351c82cc00c9cca984afbac97\transformed\jetified-places-3.3.0\AndroidManifest.xml:11:22-73
+26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+26-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\ritha\.gradle\caches\8.9\transforms\bd90813536d95acc2a15f71f2d900c83\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:23:5-79
+26-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\ritha\.gradle\caches\8.9\transforms\bd90813536d95acc2a15f71f2d900c83\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:23:22-76
+27
+28    <uses-feature
+28-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\ritha\.gradle\caches\8.9\transforms\bd90813536d95acc2a15f71f2d900c83\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:26:5-28:35
+29        android:glEsVersion="0x00020000"
+29-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\ritha\.gradle\caches\8.9\transforms\bd90813536d95acc2a15f71f2d900c83\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:27:9-41
+30        android:required="true" />
+30-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\ritha\.gradle\caches\8.9\transforms\bd90813536d95acc2a15f71f2d900c83\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:28:9-32
+31
+32    <queries>
+32-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\ritha\.gradle\caches\8.9\transforms\bd90813536d95acc2a15f71f2d900c83\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:30:5-34:15
+33
+34        <!-- Needs to be explicitly declared on Android R+ -->
+35        <package android:name="com.google.android.apps.maps" />
+35-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\ritha\.gradle\caches\8.9\transforms\bd90813536d95acc2a15f71f2d900c83\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:33:9-64
+35-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\ritha\.gradle\caches\8.9\transforms\bd90813536d95acc2a15f71f2d900c83\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:33:18-61
+36    </queries>
+37
+38    <permission
+38-->[androidx.core:core:1.12.0] C:\Users\ritha\.gradle\caches\8.9\transforms\595dd0db68c2ec04164272a75a0ab46f\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+39        android:name="com.safety.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+39-->[androidx.core:core:1.12.0] C:\Users\ritha\.gradle\caches\8.9\transforms\595dd0db68c2ec04164272a75a0ab46f\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+40        android:protectionLevel="signature" />
+40-->[androidx.core:core:1.12.0] C:\Users\ritha\.gradle\caches\8.9\transforms\595dd0db68c2ec04164272a75a0ab46f\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+41
+42    <uses-permission android:name="com.safety.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+42-->[androidx.core:core:1.12.0] C:\Users\ritha\.gradle\caches\8.9\transforms\595dd0db68c2ec04164272a75a0ab46f\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+42-->[androidx.core:core:1.12.0] C:\Users\ritha\.gradle\caches\8.9\transforms\595dd0db68c2ec04164272a75a0ab46f\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+43
+44    <application
+44-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:20:5-68:19
+45        android:allowBackup="true"
+45-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:21:9-35
+46        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+46-->[androidx.core:core:1.12.0] C:\Users\ritha\.gradle\caches\8.9\transforms\595dd0db68c2ec04164272a75a0ab46f\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+47        android:dataExtractionRules="@xml/data_extraction_rules"
+47-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:22:9-65
+48        android:debuggable="true"
+49        android:extractNativeLibs="false"
+50        android:fullBackupContent="@xml/backup_rules"
+50-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:23:9-54
+51        android:icon="@mipmap/ic_launcher"
+51-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:24:9-43
+52        android:label="@string/app_name"
+52-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:25:9-41
+53        android:roundIcon="@mipmap/ic_launcher_round"
+53-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:26:9-54
+54        android:supportsRtl="true"
+54-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:27:9-35
+55        android:testOnly="true"
+56        android:theme="@style/Theme.SafetyApp" >
+56-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:28:9-47
+57
+58        <!-- Google Maps API Key -->
+59        <meta-data
+59-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:32:9-34:71
+60            android:name="com.google.android.geo.API_KEY"
+60-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:33:13-58
+61            android:value="AIzaSyBWvTxKbh_ag2nmb_WqhyXJuMG0ImxLx6I" />
+61-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:34:13-68
+62
+63        <activity
+63-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:36:9-44:20
+64            android:name="com.safety.app.ui.DashboardActivity"
+64-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:37:13-49
+65            android:exported="true"
+65-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:38:13-36
+66            android:theme="@style/Theme.SafetyApp" >
+66-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:39:13-51
+67            <intent-filter>
+67-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:40:13-43:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:41:17-69
+68-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:41:25-66
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:42:17-77
+70-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:42:27-74
+71            </intent-filter>
+72        </activity>
+73        <activity android:name="com.safety.app.ui.SafeJourneyActivity" />
+73-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:46:9-60
+73-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:46:19-57
+74        <activity android:name="com.safety.app.ui.FakeCallActivity" />
+74-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:47:9-57
+74-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:47:19-54
+75        <activity android:name="com.safety.app.ui.AudioRecordingsActivity" />
+75-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:48:9-64
+75-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:48:19-61
+76        <activity android:name="com.safety.app.ui.EmergencyContactsActivity" /> <!-- Renamed for clarity -->
+76-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:49:9-66
+76-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:49:19-63
+77        <activity android:name="com.safety.app.ui.RegistrationActivity" />
+77-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:50:9-61
+77-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:50:19-58
+78        <activity android:name="com.safety.app.ui.SafePlacesActivity" />
+78-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:51:9-59
+78-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:51:19-56
+79
+80        <service
+80-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:53:9-56:40
+81            android:name="com.safety.app.logic.JourneyMonitoringService"
+81-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:54:13-59
+82            android:exported="false"
+82-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:56:13-37
+83            android:foregroundServiceType="location|microphone" />
+83-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:55:13-64
+84
+85        <provider
+86            android:name="androidx.core.content.FileProvider"
+86-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:59:13-62
+87            android:authorities="com.safety.app.fileprovider"
+87-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:60:13-64
+88            android:exported="false"
+88-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:61:13-37
+89            android:grantUriPermissions="true" >
+89-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:62:13-47
+90            <meta-data
+90-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:63:13-65:54
+91                android:name="android.support.FILE_PROVIDER_PATHS"
+91-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:64:17-67
+92                android:resource="@xml/file_paths" />
+92-->C:\Users\ritha\OneDrive\Documents\Amrita\safety_app\app\src\main\AndroidManifest.xml:65:17-51
+93        </provider>
+94
+95        <activity
+95-->[com.google.android.libraries.places:places:3.3.0] C:\Users\ritha\.gradle\caches\8.9\transforms\b24c723351c82cc00c9cca984afbac97\transformed\jetified-places-3.3.0\AndroidManifest.xml:15:9-21:20
+96            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+96-->[com.google.android.libraries.places:places:3.3.0] C:\Users\ritha\.gradle\caches\8.9\transforms\b24c723351c82cc00c9cca984afbac97\transformed\jetified-places-3.3.0\AndroidManifest.xml:16:13-91
+97            android:exported="false"
+97-->[com.google.android.libraries.places:places:3.3.0] C:\Users\ritha\.gradle\caches\8.9\transforms\b24c723351c82cc00c9cca984afbac97\transformed\jetified-places-3.3.0\AndroidManifest.xml:17:13-37
+98            android:label="@string/places_autocomplete_label"
+98-->[com.google.android.libraries.places:places:3.3.0] C:\Users\ritha\.gradle\caches\8.9\transforms\b24c723351c82cc00c9cca984afbac97\transformed\jetified-places-3.3.0\AndroidManifest.xml:18:13-62
+99            android:theme="@style/PlacesAutocompleteOverlay"
+99-->[com.google.android.libraries.places:places:3.3.0] C:\Users\ritha\.gradle\caches\8.9\transforms\b24c723351c82cc00c9cca984afbac97\transformed\jetified-places-3.3.0\AndroidManifest.xml:19:13-61
+100            android:windowSoftInputMode="adjustResize" >
+100-->[com.google.android.libraries.places:places:3.3.0] C:\Users\ritha\.gradle\caches\8.9\transforms\b24c723351c82cc00c9cca984afbac97\transformed\jetified-places-3.3.0\AndroidManifest.xml:20:13-55
+101        </activity>
+102
+103        <meta-data
+103-->[com.google.maps.android:android-maps-utils:3.8.0] C:\Users\ritha\.gradle\caches\8.9\transforms\2b3ae9b3e5f57da5507e9416b5c02bc9\transformed\jetified-android-maps-utils-3.8.0\AndroidManifest.xml:8:9-10:69
+104            android:name="com.google.android.gms.version"
+104-->[com.google.maps.android:android-maps-utils:3.8.0] C:\Users\ritha\.gradle\caches\8.9\transforms\2b3ae9b3e5f57da5507e9416b5c02bc9\transformed\jetified-android-maps-utils-3.8.0\AndroidManifest.xml:9:13-58
+105            android:value="@integer/google_play_services_version" /> <!-- Needs to be explicitly declared on P+ -->
+105-->[com.google.maps.android:android-maps-utils:3.8.0] C:\Users\ritha\.gradle\caches\8.9\transforms\2b3ae9b3e5f57da5507e9416b5c02bc9\transformed\jetified-android-maps-utils-3.8.0\AndroidManifest.xml:10:13-66
+106        <uses-library
+106-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\ritha\.gradle\caches\8.9\transforms\bd90813536d95acc2a15f71f2d900c83\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
+107            android:name="org.apache.http.legacy"
+107-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\ritha\.gradle\caches\8.9\transforms\bd90813536d95acc2a15f71f2d900c83\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
+108            android:required="false" />
+108-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\ritha\.gradle\caches\8.9\transforms\bd90813536d95acc2a15f71f2d900c83\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
+109
+110        <activity
+110-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ritha\.gradle\caches\8.9\transforms\b08b47b905dd0d114aea5de261635756\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+111            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+111-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ritha\.gradle\caches\8.9\transforms\b08b47b905dd0d114aea5de261635756\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+112            android:exported="false"
+112-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ritha\.gradle\caches\8.9\transforms\b08b47b905dd0d114aea5de261635756\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+113            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+113-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ritha\.gradle\caches\8.9\transforms\b08b47b905dd0d114aea5de261635756\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+114
+115        <service
+115-->[androidx.room:room-runtime:2.6.1] C:\Users\ritha\.gradle\caches\8.9\transforms\5043332957491c7ae34642fe0025aaa1\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+116            android:name="androidx.room.MultiInstanceInvalidationService"
+116-->[androidx.room:room-runtime:2.6.1] C:\Users\ritha\.gradle\caches\8.9\transforms\5043332957491c7ae34642fe0025aaa1\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+117            android:directBootAware="true"
+117-->[androidx.room:room-runtime:2.6.1] C:\Users\ritha\.gradle\caches\8.9\transforms\5043332957491c7ae34642fe0025aaa1\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+118            android:exported="false" />
+118-->[androidx.room:room-runtime:2.6.1] C:\Users\ritha\.gradle\caches\8.9\transforms\5043332957491c7ae34642fe0025aaa1\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+119
+120        <provider
+120-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ritha\.gradle\caches\8.9\transforms\c8855705109fa1b429e799efada42f05\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+121            android:name="androidx.startup.InitializationProvider"
+121-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ritha\.gradle\caches\8.9\transforms\c8855705109fa1b429e799efada42f05\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+122            android:authorities="com.safety.app.androidx-startup"
+122-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ritha\.gradle\caches\8.9\transforms\c8855705109fa1b429e799efada42f05\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+123            android:exported="false" >
+123-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ritha\.gradle\caches\8.9\transforms\c8855705109fa1b429e799efada42f05\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+124            <meta-data
+124-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ritha\.gradle\caches\8.9\transforms\c8855705109fa1b429e799efada42f05\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+125                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+125-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ritha\.gradle\caches\8.9\transforms\c8855705109fa1b429e799efada42f05\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+126                android:value="androidx.startup" />
+126-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ritha\.gradle\caches\8.9\transforms\c8855705109fa1b429e799efada42f05\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+127            <meta-data
+127-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ritha\.gradle\caches\8.9\transforms\f47c2fe873f2e5b47ab0cdc8f6d537e0\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+128                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+128-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ritha\.gradle\caches\8.9\transforms\f47c2fe873f2e5b47ab0cdc8f6d537e0\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+129                android:value="androidx.startup" />
+129-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ritha\.gradle\caches\8.9\transforms\f47c2fe873f2e5b47ab0cdc8f6d537e0\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+130            <meta-data
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ritha\.gradle\caches\8.9\transforms\98a78e229447d7ec42cc86e799ac07a8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+131                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ritha\.gradle\caches\8.9\transforms\98a78e229447d7ec42cc86e799ac07a8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+132                android:value="androidx.startup" />
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ritha\.gradle\caches\8.9\transforms\98a78e229447d7ec42cc86e799ac07a8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+133        </provider>
+134
+135        <service
+135-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\ritha\.gradle\caches\8.9\transforms\93453d3c4a6351a0218406527cd6f304\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:29:9-35:19
+136            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+136-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\ritha\.gradle\caches\8.9\transforms\93453d3c4a6351a0218406527cd6f304\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:30:13-103
+137            android:exported="false" >
+137-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\ritha\.gradle\caches\8.9\transforms\93453d3c4a6351a0218406527cd6f304\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:31:13-37
+138            <meta-data
+138-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\ritha\.gradle\caches\8.9\transforms\93453d3c4a6351a0218406527cd6f304\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:32:13-34:39
+139                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+139-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\ritha\.gradle\caches\8.9\transforms\93453d3c4a6351a0218406527cd6f304\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:33:17-94
+140                android:value="cct" />
+140-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\ritha\.gradle\caches\8.9\transforms\93453d3c4a6351a0218406527cd6f304\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:34:17-36
+141        </service>
+142        <service
+142-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\ritha\.gradle\caches\8.9\transforms\27bedda76996b266170225674300fd51\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:26:9-30:19
+143            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+143-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\ritha\.gradle\caches\8.9\transforms\27bedda76996b266170225674300fd51\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:27:13-117
+144            android:exported="false"
+144-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\ritha\.gradle\caches\8.9\transforms\27bedda76996b266170225674300fd51\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:28:13-37
+145            android:permission="android.permission.BIND_JOB_SERVICE" >
+145-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\ritha\.gradle\caches\8.9\transforms\27bedda76996b266170225674300fd51\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:29:13-69
+146        </service>
+147
+148        <receiver
+148-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\ritha\.gradle\caches\8.9\transforms\27bedda76996b266170225674300fd51\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:32:9-34:40
+149            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+149-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\ritha\.gradle\caches\8.9\transforms\27bedda76996b266170225674300fd51\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:33:13-132
+150            android:exported="false" />
+150-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\ritha\.gradle\caches\8.9\transforms\27bedda76996b266170225674300fd51\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:34:13-37
+151        <receiver
+151-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ritha\.gradle\caches\8.9\transforms\98a78e229447d7ec42cc86e799ac07a8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+152            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+152-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ritha\.gradle\caches\8.9\transforms\98a78e229447d7ec42cc86e799ac07a8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+153            android:directBootAware="false"
+153-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ritha\.gradle\caches\8.9\transforms\98a78e229447d7ec42cc86e799ac07a8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+154            android:enabled="true"
+154-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ritha\.gradle\caches\8.9\transforms\98a78e229447d7ec42cc86e799ac07a8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+155            android:exported="true"
+155-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ritha\.gradle\caches\8.9\transforms\98a78e229447d7ec42cc86e799ac07a8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+156            android:permission="android.permission.DUMP" >
+156-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ritha\.gradle\caches\8.9\transforms\98a78e229447d7ec42cc86e799ac07a8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+157            <intent-filter>
+157-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ritha\.gradle\caches\8.9\transforms\98a78e229447d7ec42cc86e799ac07a8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+158                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+158-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ritha\.gradle\caches\8.9\transforms\98a78e229447d7ec42cc86e799ac07a8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+158-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ritha\.gradle\caches\8.9\transforms\98a78e229447d7ec42cc86e799ac07a8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+159            </intent-filter>
+160            <intent-filter>
+160-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ritha\.gradle\caches\8.9\transforms\98a78e229447d7ec42cc86e799ac07a8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+161                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+161-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ritha\.gradle\caches\8.9\transforms\98a78e229447d7ec42cc86e799ac07a8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+161-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ritha\.gradle\caches\8.9\transforms\98a78e229447d7ec42cc86e799ac07a8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+162            </intent-filter>
+163            <intent-filter>
+163-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ritha\.gradle\caches\8.9\transforms\98a78e229447d7ec42cc86e799ac07a8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+164                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+164-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ritha\.gradle\caches\8.9\transforms\98a78e229447d7ec42cc86e799ac07a8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+164-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ritha\.gradle\caches\8.9\transforms\98a78e229447d7ec42cc86e799ac07a8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+165            </intent-filter>
+166            <intent-filter>
+166-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ritha\.gradle\caches\8.9\transforms\98a78e229447d7ec42cc86e799ac07a8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+167                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+167-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ritha\.gradle\caches\8.9\transforms\98a78e229447d7ec42cc86e799ac07a8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+167-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ritha\.gradle\caches\8.9\transforms\98a78e229447d7ec42cc86e799ac07a8\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+168            </intent-filter>
+169        </receiver>
+170    </application>
+171
+172</manifest>

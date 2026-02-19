@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="dashboard_title">Dashboard</string>
+    <string name="btn_start_journey">Start Safe Journey</string>
+    <string name="btn_fake_call">Fake Incoming Call</string>
+    <string name="btn_sos">EMERGENCY SOS</string>
+    <string name="btn_safe_places">Find Safe Place</string>
+    <string name="btn_contacts">Manage Contacts</string>
+    <string name="journey_destination_hint">Enter Destination</string>
+</resources>
