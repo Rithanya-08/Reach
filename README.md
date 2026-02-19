@@ -120,7 +120,7 @@ com.safety.app
 
 ---
 
-##Future Scope
+## Future Scope
 
 - [ ] **Cloud Sync**: Backup recordings and logs to a secure cloud server.
 - [ ] **Geofencing**: Automatic alerts when entering known high-risk zones.
