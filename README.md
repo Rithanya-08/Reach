@@ -40,6 +40,7 @@ The app uses intelligent algorithms to detect anomalies during travel (unexpecte
 ### 4. **Audio Evidence Manager** 
 - **Auto-Recording**: Captures audio during any SOS event.
 - **Secure Storage**: Recordings are saved locally in the app's private cache.
+- **Cloud Backup**: Automatically uploads evidence to **Firebase Storage** (if online).
 - **Share**: One-tap sharing of evidence via secure file providers (WhatsApp, Email, etc.).
 
 ### 5. **Realistic Fake Call** 
@@ -120,9 +121,13 @@ com.safety.app
 
 ---
 
+<<<<<<< HEAD
 ## Future Scope
+=======
+## 🔮 Future Scope
+>>>>>>> 837b31e (Added Firebase Storage for Audio Uploads)
 
-- [ ] **Cloud Sync**: Backup recordings and logs to a secure cloud server.
+- [x] **Cloud Sync**: Backup recordings and logs to a secure cloud server (Implemented via Firebase).
 - [ ] **Geofencing**: Automatic alerts when entering known high-risk zones.
 - [ ] **Voice Activation**: "Help" keyword detection using Speech Recognition.
 - [ ] **Live Streaming**: Stream video/audio directly to contacts in SOS mode.

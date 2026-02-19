@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">21711624918</string>
+    <string name="google_api_key" translatable="false">AIzaSyBKuRJZcItorYQBJpoGzmmUudLp_AXnevU</string>
+    <string name="google_app_id" translatable="false">1:21711624918:android:aef04a717dc8a8a31ec777</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBKuRJZcItorYQBJpoGzmmUudLp_AXnevU</string>
+    <string name="google_storage_bucket" translatable="false">reach-bc150.firebasestorage.app</string>
+    <string name="project_id" translatable="false">reach-bc150</string>
+</resources>

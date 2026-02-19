@@ -1,42 +1,38 @@
 [
     {
-        "merged": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-mergeDebugResources-46:\\layout\\activity_safe_places.xml",
-        "source": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-main-49:\\layout\\activity_safe_places.xml"
+        "merged": "com.safety.app-mergeDebugResources-51:/layout/activity_dashboard.xml",
+        "source": "com.safety.app-main-54:/layout/activity_dashboard.xml"
     },
     {
-        "merged": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-mergeDebugResources-46:\\layout\\activity_registration.xml",
-        "source": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-main-49:\\layout\\activity_registration.xml"
+        "merged": "com.safety.app-mergeDebugResources-51:/layout/activity_fake_call.xml",
+        "source": "com.safety.app-main-54:/layout/activity_fake_call.xml"
     },
     {
-        "merged": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-mergeDebugResources-46:\\layout\\activity_dashboard.xml",
-        "source": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-main-49:\\layout\\activity_dashboard.xml"
+        "merged": "com.safety.app-mergeDebugResources-51:/layout/activity_safe_journey.xml",
+        "source": "com.safety.app-main-54:/layout/activity_safe_journey.xml"
     },
     {
-        "merged": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-mergeDebugResources-46:\\layout\\activity_audio_recordings.xml",
-        "source": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-main-49:\\layout\\activity_audio_recordings.xml"
+        "merged": "com.safety.app-mergeDebugResources-51:/layout/activity_emergency_contacts.xml",
+        "source": "com.safety.app-main-54:/layout/activity_emergency_contacts.xml"
     },
     {
-        "merged": "com.safety.app-mergeDebugResources-46:/layout/activity_fake_call.xml",
-        "source": "com.safety.app-main-49:/layout/activity_fake_call.xml"
+        "merged": "com.safety.app-mergeDebugResources-51:/layout/item_contact.xml",
+        "source": "com.safety.app-main-54:/layout/item_contact.xml"
     },
     {
-        "merged": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-mergeDebugResources-46:\\layout\\item_place.xml",
-        "source": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-main-49:\\layout\\item_place.xml"
+        "merged": "com.safety.app-mergeDebugResources-51:/layout/item_place.xml",
+        "source": "com.safety.app-main-54:/layout/item_place.xml"
     },
     {
-        "merged": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-mergeDebugResources-46:\\layout\\activity_fake_call.xml",
-        "source": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-main-49:\\layout\\activity_fake_call.xml"
+        "merged": "com.safety.app-mergeDebugResources-51:/layout/activity_registration.xml",
+        "source": "com.safety.app-main-54:/layout/activity_registration.xml"
     },
     {
-        "merged": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-mergeDebugResources-46:\\layout\\activity_safe_journey.xml",
-        "source": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-main-49:\\layout\\activity_safe_journey.xml"
+        "merged": "com.safety.app-mergeDebugResources-51:/layout/activity_audio_recordings.xml",
+        "source": "com.safety.app-main-54:/layout/activity_audio_recordings.xml"
     },
     {
-        "merged": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-mergeDebugResources-46:\\layout\\activity_emergency_contacts.xml",
-        "source": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-main-49:\\layout\\activity_emergency_contacts.xml"
-    },
-    {
-        "merged": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-mergeDebugResources-46:\\layout\\item_contact.xml",
-        "source": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-main-49:\\layout\\item_contact.xml"
+        "merged": "com.safety.app-mergeDebugResources-51:/layout/activity_safe_places.xml",
+        "source": "com.safety.app-main-54:/layout/activity_safe_places.xml"
     }
 ]

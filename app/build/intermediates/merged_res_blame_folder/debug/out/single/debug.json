@@ -1,82 +1,78 @@
 [
     {
-        "merged": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-merged_res-47:\\layout_item_contact.xml.flat",
-        "source": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-main-49:\\layout\\item_contact.xml"
+        "merged": "com.safety.app-merged_res-52:/layout_activity_registration.xml.flat",
+        "source": "com.safety.app-main-54:/layout/activity_registration.xml"
     },
     {
-        "merged": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-merged_res-47:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-main-49:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.safety.app-merged_res-52:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.safety.app-main-54:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-merged_res-47:\\drawable_ic_call_decline.xml.flat",
-        "source": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-main-49:\\drawable\\ic_call_decline.xml"
+        "merged": "com.safety.app-merged_res-52:/layout_activity_safe_journey.xml.flat",
+        "source": "com.safety.app-main-54:/layout/activity_safe_journey.xml"
     },
     {
-        "merged": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-merged_res-47:\\layout_activity_safe_journey.xml.flat",
-        "source": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-main-49:\\layout\\activity_safe_journey.xml"
+        "merged": "com.safety.app-merged_res-52:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.safety.app-main-54:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-merged_res-47:\\layout_activity_audio_recordings.xml.flat",
-        "source": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-main-49:\\layout\\activity_audio_recordings.xml"
+        "merged": "com.safety.app-merged_res-52:/xml_data_extraction_rules.xml.flat",
+        "source": "com.safety.app-main-54:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-merged_res-47:\\drawable_ic_call_answer.xml.flat",
-        "source": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-main-49:\\drawable\\ic_call_answer.xml"
+        "merged": "com.safety.app-merged_res-52:/xml_file_paths.xml.flat",
+        "source": "com.safety.app-main-54:/xml/file_paths.xml"
     },
     {
-        "merged": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-merged_res-47:\\layout_activity_dashboard.xml.flat",
-        "source": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-main-49:\\layout\\activity_dashboard.xml"
+        "merged": "com.safety.app-merged_res-52:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.safety.app-main-54:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-merged_res-47:\\xml_file_paths.xml.flat",
-        "source": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-main-49:\\xml\\file_paths.xml"
+        "merged": "com.safety.app-merged_res-52:/layout_item_contact.xml.flat",
+        "source": "com.safety.app-main-54:/layout/item_contact.xml"
     },
     {
-        "merged": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-merged_res-47:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-main-49:\\xml\\backup_rules.xml"
+        "merged": "com.safety.app-merged_res-52:/layout_activity_audio_recordings.xml.flat",
+        "source": "com.safety.app-main-54:/layout/activity_audio_recordings.xml"
     },
     {
-        "merged": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-merged_res-47:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-main-49:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.safety.app-merged_res-52:/layout_item_place.xml.flat",
+        "source": "com.safety.app-main-54:/layout/item_place.xml"
     },
     {
-        "merged": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-merged_res-47:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-main-49:\\xml\\data_extraction_rules.xml"
+        "merged": "com.safety.app-merged_res-52:/xml_backup_rules.xml.flat",
+        "source": "com.safety.app-main-54:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-merged_res-47:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-main-49:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "com.safety.app-merged_res-52:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.safety.app-main-54:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-merged_res-47:\\drawable_ic_profile_placeholder.xml.flat",
-        "source": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-main-49:\\drawable\\ic_profile_placeholder.xml"
+        "merged": "com.safety.app-merged_res-52:/drawable_ic_profile_placeholder.xml.flat",
+        "source": "com.safety.app-main-54:/drawable/ic_profile_placeholder.xml"
     },
     {
-        "merged": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-merged_res-47:\\layout_activity_safe_places.xml.flat",
-        "source": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-main-49:\\layout\\activity_safe_places.xml"
+        "merged": "com.safety.app-merged_res-52:/layout_activity_safe_places.xml.flat",
+        "source": "com.safety.app-main-54:/layout/activity_safe_places.xml"
     },
     {
-        "merged": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-merged_res-47:\\layout_activity_emergency_contacts.xml.flat",
-        "source": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-main-49:\\layout\\activity_emergency_contacts.xml"
+        "merged": "com.safety.app-merged_res-52:/drawable_ic_call_decline.xml.flat",
+        "source": "com.safety.app-main-54:/drawable/ic_call_decline.xml"
     },
     {
-        "merged": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-merged_res-47:\\layout_activity_fake_call.xml.flat",
-        "source": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-main-49:\\layout\\activity_fake_call.xml"
+        "merged": "com.safety.app-merged_res-52:/layout_activity_fake_call.xml.flat",
+        "source": "com.safety.app-main-54:/layout/activity_fake_call.xml"
     },
     {
-        "merged": "com.safety.app-merged_res-47:/layout_activity_fake_call.xml.flat",
-        "source": "com.safety.app-main-49:/layout/activity_fake_call.xml"
+        "merged": "com.safety.app-merged_res-52:/layout_activity_emergency_contacts.xml.flat",
+        "source": "com.safety.app-main-54:/layout/activity_emergency_contacts.xml"
     },
     {
-        "merged": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-merged_res-47:\\layout_item_place.xml.flat",
-        "source": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-main-49:\\layout\\item_place.xml"
+        "merged": "com.safety.app-merged_res-52:/drawable_ic_call_answer.xml.flat",
+        "source": "com.safety.app-main-54:/drawable/ic_call_answer.xml"
     },
     {
-        "merged": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-merged_res-47:\\layout_activity_registration.xml.flat",
-        "source": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-main-49:\\layout\\activity_registration.xml"
-    },
-    {
-        "merged": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-merged_res-47:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\ritha\\.gradle\\daemon\\8.9\\com.safety.app-main-49:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.safety.app-merged_res-52:/layout_activity_dashboard.xml.flat",
+        "source": "com.safety.app-main-54:/layout/activity_dashboard.xml"
     }
 ]

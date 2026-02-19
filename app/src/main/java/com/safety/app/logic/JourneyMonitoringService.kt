@@ -362,6 +362,10 @@ class JourneyMonitoringService : Service() {
                     val intent = Intent("ACTION_RECORDING_SAVED")
                     intent.putExtra("file_path", path)
                     sendBroadcast(intent)
+                    
+                    // Trigger Cloud Upload
+                    uploadAudioToFirebase(path)
+                    
                     currentRecordingFile = null
                 }
                 
@@ -467,6 +471,55 @@ class JourneyMonitoringService : Service() {
 
     override fun onBind(intent: Intent?): IBinder? {
         return null
+    }
+
+    // Firebase Upload Logic
+    private fun uploadAudioToFirebase(filePath: String) {
+        if (!NetworkUtils.isInternetAvailable(applicationContext)) {
+            // Offline: Just keep local file. Ideally queue for later.
+            Log.d("JourneyService", "Offline: Skipping upload for now.")
+            return
+        }
+
+        try {
+            val file = java.io.File(filePath)
+            val storageRef = com.google.firebase.storage.FirebaseStorage.getInstance().reference
+            val audioRef = storageRef.child("sos_audio/${file.name}")
+            
+            val uploadTask = audioRef.putFile(android.net.Uri.fromFile(file))
+            
+            uploadTask.addOnSuccessListener {
+                // Get Download URL
+                audioRef.downloadUrl.addOnSuccessListener { uri ->
+                    val downloadUrl = uri.toString()
+                    Log.d("JourneyService", "Upload Success! URL: $downloadUrl")
+                    
+                    // Send Follow-up SMS with Link
+                    sendAudioLinkSMS(downloadUrl)
+                }
+            }.addOnFailureListener {
+                Log.e("JourneyService", "Upload Failed", it)
+            }
+        } catch (e: Exception) {
+             Log.e("JourneyService", "Error initiating upload", e)
+        }
+    }
+
+    private fun sendAudioLinkSMS(url: String) {
+        serviceScope.launch(Dispatchers.IO) {
+            val user = repository.getUserSync()
+            val contacts = repository.getContactsSync(user?.userId ?: 0)
+            
+            contacts.forEach { contact ->
+                try {
+                    val message = "Evidence Audio Recorded: $url"
+                    @Suppress("DEPRECATION")
+                    android.telephony.SmsManager.getDefault().sendTextMessage(contact.phoneNumber, null, message, null, null)
+                } catch (e: Exception) {
+                    Log.e("JourneyService", "Failed to send audio link", e)
+                }
+            }
+        }
     }
 
     override fun onDestroy() {

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.safety.app-mergeDebugResources-45:/values-h720dp-v13/values-h720dp-v13.xml",
+            "outputFile": "com.safety.app-mergeDebugResources-50:/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ritha\\.gradle\\caches\\8.9\\transforms\\eea1862e374446c713dcaeca00b8b701\\transformed\\appcompat-1.6.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "source": "C:\\Users\\ritha\\.gradle\\caches\\8.9\\transforms\\bf045dfa6990058f93de375fccc249a4\\transformed\\appcompat-1.6.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
