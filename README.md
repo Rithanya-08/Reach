@@ -49,7 +49,7 @@ The app uses intelligent algorithms to detect anomalies during travel (unexpecte
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **Language**: Kotlin
 - **Architecture**: MVVM (Model-View-ViewModel)
