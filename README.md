@@ -3,7 +3,8 @@
 > **A stealthy, comprehensive personal safety application designed to protect users in emergency situations while maintaining complete privacy.**
 
 ---
-##Try it out
+## Try it out
+
 https://firebasestorage.googleapis.com/v0/b/reach-bc150.firebasestorage.app/o/app-release.apk?alt=media&token=132e8237-a07b-4be1-8290-fbcabf85872d
 
 ---
@@ -19,7 +20,7 @@ The app uses intelligent algorithms to detect anomalies during travel (unexpecte
 ##  Key Features
 
 ### 1. **Stealth Interface** 
-- **Disguise**: App Name and Icon mimick a standard "Calculator".
+- **Disguise**: App Name and Icon mimic a standard "Calculator".
 - **Privacy First**: The safety dashboard is hidden behind the utility interface.
 
 ### 2. **Smart Journey Monitoring** 
@@ -125,17 +126,17 @@ com.safety.app
 
 ---
 
-<<<<<<< HEAD
 ## Future Scope
-=======
-## 🔮 Future Scope
->>>>>>> 837b31e (Added Firebase Storage for Audio Uploads)
 
-- [x] **Cloud Sync**: Backup recordings and logs to a secure cloud server (Implemented via Firebase).
-- [ ] **Geofencing**: Automatic alerts when entering known high-risk zones.
-- [ ] **Voice Activation**: "Help" keyword detection using Speech Recognition.
-- [ ] **Live Streaming**: Stream video/audio directly to contacts in SOS mode.
-- [ ] **WearOS Integration**: Trigger SOS from a smartwatch.
+### Implemented
+- Cloud Sync: Audio recordings and logs backed up securely using Firebase Storage.
+- Deployed APK available for testing (see link above).
+
+### Planned
+- Geofencing for high-risk zones
+- Voice activation using keyword detection
+- Live audio/video streaming
+- WearOS integration
 
 ---
 
