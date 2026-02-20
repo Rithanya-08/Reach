@@ -3,6 +3,10 @@
 > **A stealthy, comprehensive personal safety application designed to protect users in emergency situations while maintaining complete privacy.**
 
 ---
+##Try it out
+https://firebasestorage.googleapis.com/v0/b/reach-bc150.firebasestorage.app/o/app-release.apk?alt=media&token=132e8237-a07b-4be1-8290-fbcabf85872d
+
+---
 
 ## Overview
 
